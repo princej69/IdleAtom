@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Idle Atoms</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="atomsamountcontainer">
+            <div class="atomsamount" title="This is how much atoms you have.">
+                You have <span id="atomsamount">0</span> atoms.
+            </div>
+            <div class="atomsgain" title="This is how much you get atoms every second.">
+                You are getting <span id="atomsgain">0</span> atoms per second.
+            </div>
+        </div>
+        <div class="toptaskbars">
+            <div id="atomsbtn" class="toptaskbar">Atoms</div>
+            <div id="settingsbtn" class="toptaskbar">Settings</div>
+            <div id="contactbtn" class="toptaskbar">Contact</div>
+        </div>
+        <div class="tabContents">
+            <div class="tabContent" id="atoms">
+                <div class="atomsTabTile">
+                    <b>Get this amount of atoms:</b><br>
+                    <span id="getatomscount">0</span><br><br>
+                    <button class="getatomsbtn atomsTabTileButton" onclick="game.atoms+=game.getatoms;game.getatoms=0">GET ATOMS</button>
+                </div>
+            </div>
+            <div class="tabContent" id="settings">
+                Coming soon!
+            </div>
+            <div class="tabContent" id="contact">
+                If you like to contact me about the game or request a new feature, contact me there: <br>
+                Twitter: <b>@princej69420</b><br>
+                <i>more links coming soon..</i>
+            </div>
+        </div>
+        <span class="notice">Idle Atom Beta 1.0.1 - &copy; 2022 princej69</span>
+    </body>
+    <script src="js/core/IAUtility.js"></script>
+
+    <script src="js/html management/tabs.js"></script>
+
+    <script src="js/game.js"></script>
+</html>
