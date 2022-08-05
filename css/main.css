@@ -9,10 +9,10 @@
     width: fit-content;
 }
 .atomsamount {
-    font-size:20px;
+    font-size:30px;
 }
 .atomsgain {
-    font-size: 10px;
+    font-size: 20px;
     color: #aaaaaa;
 }
 .toptaskbars {
@@ -27,6 +27,7 @@
     cursor: pointer;
     transition: 0.5s;
     margin: 5px;
+    font-size:20px;
 }
 .toptaskbar:hover {
     background: #dddddd;
@@ -55,21 +56,25 @@ button:active {
     background: #999999;
     border-radius: 3px;
 }
-.atomsTabTile {
+.tabTile {
     background-color: #eeeeee;
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
+    font-size: 18px;
 }
-.atomsTabTileButton {
+.tabTileButton {
     width: 100%;
     background: #dddddd;
 }
-.atomsTabTileButton:hover {
+.tabTileButton:hover {
     background: #cccccc;
     border-radius: 4px;
 }
-.atomsTabTileButton:active {
+.tabTileButton:active {
     background: #999999;
     border-radius: 2px;
+}
+.tabContent {
+    margin: 5px;
 }
