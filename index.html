@@ -30,7 +30,7 @@
             <div class="tabContent" id="upgrades">
                 <div class="tabTile">
                     <b>Increase atom get by 0.1</b>
-                    <button class="getatomsbtn tabTileButton" onclick="game.upgrades.gai+=0.1;game.atoms-=10">UPGRADE</button>
+                    <button class="getatomsbtn tabTileButton" onclick="if(game.atoms >= 10){game.atoms -=10;game.upgrades.gai+=0.1}">UPGRADE</button>
                 </div>
             </div>
             <div class="tabContent" id="settings">
@@ -42,7 +42,7 @@
                 <i>more links coming soon..</i>
             </div>
         </div>
-        <span class="notice">Idle Atom Beta 1.0.2 - &copy; 2022 princej69</span>
+        <span class="notice">Idle Atom Beta 1.0.3 - &copy; 2022 princej69</span>
     </body>
     <script src="js/core/IAUtility.js"></script>
 
